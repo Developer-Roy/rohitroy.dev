@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Section</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <header>
+      <div class="logo">
+        <div class="image">
+          <img src="./assets/myImage.png" alt="" />
+        </div>
+        <div class="name">
+          <h3>Rohit</h3>
+          <h3>Roy</h3>
+        </div>
+      </div>
+      <nav>
+        <ul id="nav-list">
+          <li><a href="index.html" class="active"  id="home">Home</a></li>
+          <li><a href="about.html" id="about">About</a></li>
+          <li><a href="projects.html" id="project">Project</a></li>
+          <li><a href="components.html" id="components">Components</a></li>
+        </ul>
+      </nav>
+
+      <div class="toggleBtn">
+        <i class="bx bxs-sun sun"></i>
+        <i class="bx bxs-moon moon"></i>
+      </div>
+    </header>
+
+    <main class="about">
+      <div class="parent">
+        <div class="div1 grid">
+          <img src="./assets/myImage.png" alt="" />
+        </div>
+        <div class="div2 grid">
+          <div class="icons">
+            <i class="bx bxl-github"></i>
+            <i class="bx bxl-linkedin" undefined></i>
+            <i class="bx bxl-instagram"></i>
+            <i class="bx bxl-twitter"></i>
+          </div>
+        </div>
+        <div class="div3 grid">
+          <div class="myintro">
+            <h3>My self</h3>
+            <p>
+              I'm Frontend Developer & Design Engineer who loves transforming
+              ideas into interactive digital products.
+            </p>
+          </div>
+        </div>
+        <div class="div4 grid">
+          <div class="time-card">
+            <div class="location">
+              <span class="dot"></span>
+              <span id="location">India</span>
+            </div>
+
+            <h1 id="time"></h1>
+
+            <p id="date"></p>
+          </div>
+        </div>
+        <div class="div5 grid">
+          <div class="div5-container">
+            <div class="project-image">
+              <img src="./assets/Screenshot 2025-10-08 231808.png" alt="" />
+            </div>
+            <div class="about-project">
+              <h3>Weather App</h3>
+              <p>
+                weather app with realtime weather details with hourly and 6days
+                forecast.
+              </p>
+              <button id="viewproject">View Project</button>
+              <button id="seeAll">See All</button>
+            </div>
+          </div>
+        </div>
+        <div class="div6 grid">
+          <div class="tech-stack">
+            <i class="bx bxl-html5"></i>
+            <i class="bx bxl-css3"></i>
+            <i class="bx bxl-javascript"></i>
+            <i class="bx bxl-react"></i>
+            <i class="bx bxl-visual-studio" undefined></i>
+            <i class="bx bxl-nodejs"></i>
+            <i class="bx bxl-typescript"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+
+        <!-- Brand  -->
+        <div class="first-footer">
+          <div class="footer-brand">
+          <h3>Rohit Roy</h3>
+          <p>Frontend Developer & Design Engineer</p>
+          <span class="status">Available for work</span>
+        </div>
+
+        <!-- Navigation  -->
+        <div class="footer-nav">
+          <h3>Menu</h3>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#components">Components</a>
+        </div>
+        </div>
+
+        <div class="second-footer">
+          <!-- Contact  -->
+        <div class="footer-contact">
+          <h3>Contact</h3>
+          <p class="contact-p1"><a href="#">rohit.dev#gmail.com</a></p>
+          <p class="contact-p2"> <img width="25" height="25" src="https://img.icons8.com/skeuomorphism/32/india-circular.png" alt="india-circular"/>  India</p>
+        </div>
+
+        <div class="footer-social">
+          <h3>Social</h3>
+          <div class="icons">
+            <a href="#"><i class='bx bxl-github' undefined ></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span></p>
+        <p>Design & Developed by <a href="#">Rohit</a></p>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>

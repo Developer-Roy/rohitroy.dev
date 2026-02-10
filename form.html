@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="I am Design Engineer & Frontend developer.With modern Tools like HTML, CSS, JavaScript, React projects."
+    />
+    <meta
+      name="keywords"
+      content="Frontend Developer, Portfolio, Design Engineer, JavaScript Developer"
+    />
+    <meta name="author" content="Rohit Roy" />
+
+    <meta property="og:title" content="Rohit Roy Portfolio" />
+    <meta property="og:description" content="Frontend Developer Portfolio" />
+    <meta property="og:image" content="./assets/myImage.png" />
+    <meta property="og:type" content="website" />
+
+    <title>Rohit Roy - Design Engineer & Frontend developer</title>
+    <!-- css style link  -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styel2.css" />
+
+    <!-- boxicon for icons  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <div class="image">
+          <img src="./assets/myImage.png" alt="" loading="lazy" />
+        </div>
+        <div class="name">
+          <h3>Rohit</h3>
+          <h3>Roy</h3>
+        </div>
+      </div>
+      <nav>
+        <ul id="nav-list">
+          <li><a href="index.html" id="home">Home</a></li>
+          <li><a href="about.html" id="about">About</a></li>
+          <li><a href="projects.html" id="project">Project</a></li>
+          <li><a href="components.html" id="components">Components</a></li>
+        </ul>
+      </nav>
+
+      <div class="toggleBtn">
+        <i class="bx bxs-sun sun" title="switch to light theme"></i>
+        <i class="bx bxs-moon moon" title="switch to dark theme"></i>
+      </div>
+
+      <div class="menu-bar">
+        <i class="bx bx-menu open"></i>
+        <i class="bx bx-x close"></i>
+      </div>
+
+      <div class="menu-container">
+        <div class="container-item">
+          <div class="menu-title">
+            <h3>Menu</h3>
+          </div>
+          <div class="menu-items">
+            <ul id="menu-nav-list">
+              <li><a href="index.html" id="home">Home</a></li>
+              <li><a href="about.html" id="about">About</a></li>
+              <li><a href="projects.html" id="project">Project</a></li>
+              <li><a href="components.html" id="components">Components</a></li>
+            </ul>
+          </div>
+          <div class="menu-social-icons">
+            <a href="https://github.com/Developer-Roy" target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/rohit-roy-a504b3266/overlay/about-this-profile/?trk=li_LOL_DA_global_careers_jobsgtm_otwGeneral_res_Sep2023_dav1&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B5XzPadfWR3Ow7cF4PwUPVA%3D%3D"
+              ><i class="bx bxl-linkedin-square" target="_blank"></i
+            ></a>
+            <a href="https://x.com/Code_with_Rohit" target="_blank"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+            <a
+              href="https://accountscenter.instagram.com/profiles/17841461559779183/"
+              target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+
+          <div class="cta">
+            <button id="hireMe">
+              <a href="mailto:rohitroy62945@gmail.com">Hire me</a>
+            </button>
+            <button id="available"><span></span>available</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="contact">
+      <h2>Contact Me</h2>
+
+      <form action="https://formspree.io/f/mjgekqgw" method="POST" id="contact-form">
+        <input type="text" name="user_name" placeholder="Your Name" required />
+        <input
+          type="email"
+          name="user_email"
+          placeholder="Your Email"
+          required
+        />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <p id="form-status"></p>
+    </section>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./index.js"></script>
+
+
+  </body>
+</html>
